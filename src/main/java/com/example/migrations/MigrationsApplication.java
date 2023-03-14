@@ -8,6 +8,5 @@ public class MigrationsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MigrationsApplication.class, args);
-
     }
 }
