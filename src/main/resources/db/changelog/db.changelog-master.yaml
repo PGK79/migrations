@@ -8,3 +8,18 @@ databaseChangeLog:
   - include:
       file: migrations/003-filling_the_table.sql
       relativeToChangelogFile: true
+  - include:
+      file: migrations/004-creat_new_tables.sql
+      relativeToChangelogFile: true
+  - include:
+      file: migrations/005-creat_tables_new_orders.sql
+      relativeToChangelogFile: true
+  - include:
+      file: migrations/006-filling_new_customers.sql
+      relativeToChangelogFile: true
+  - include:
+      file: migrations/007-new_filling_new_customers.sql
+      relativeToChangelogFile: true
+  - include:
+     file: migrations/008-filling_new_customers.sql
+     relativeToChangelogFile: true
